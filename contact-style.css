@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(222, 222, 222);
+    width: 200px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar nav{
+    padding: 30px;
+
+} 
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.sidebar nav li a{
+text-decoration: none;
+color: rgb(5, 5, 5);
+}
+.main{
+    /* background-color: #1589e2; */
+    width: 85vw;
+
+}
+
+.contactform{
+    padding: 0 50px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(222, 222, 222);
+    width: 200px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar nav{
+    padding: 30px;
+
+} 
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.sidebar nav li a{
+text-decoration: none;
+color: rgb(5, 5, 5);
+}
+.main{
+    background-color: #1589e2;
+    width: 85vw;
+
+}
+
+.infoContainer{
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 80vw;
+    margin: 115px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    /* width: 140px; */
+    height: 60vh;
+
+}
+
+.devInfo{
+    font-family: 'Source Code Pro', monospace;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{font-size: 50px;
+}
+.name{font-size: 40px;
+    font-family: 'Roboto Bold', sans-serif;
+}
+.about{font-size: 25px;
+
+}
+
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: #1589e2;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 16px 0px 0px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: #1589e2;
+    background-color: #ffffff;
+}
+.container{
+    display: flex;
+}
